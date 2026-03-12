@@ -1,0 +1,14 @@
+services:
+  bot:
+    build: .
+    container_name: incident-response-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - bot-data:/app/data
+    environment:
+      - DATABASE_PATH=/app/data/incidents.db
+
+volumes:
+  bot-data:
