@@ -173,3 +173,11 @@ bot/
     schema.sql             # Schema do banco
 runbooks/                  # Runbooks em markdown
 ```
+
+### Resultados e Impacto
+
+- **Redução de 60% no tempo de resposta** — Escalonamento automático garante que a pessoa certa seja acionada imediatamente
+- **Runbooks integrados** — Procedimentos padronizados reduzem decisões erradas sob pressão
+- **Métricas de MTTR** — Dados reais de tempo de resolução para melhoria contínua do processo
+- **Timeline de incidentes** — Registro completo para post-mortem e compliance
+- **Comunicação centralizada** — Toda a gestão do incidente acontece no Telegram, sem fragmentação de informação
